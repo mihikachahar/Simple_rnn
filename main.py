@@ -1,7 +1,8 @@
-!pip install streamlit
+
 # Step 1: Import Libraries and Load the Model
 import numpy as np
 import tensorflow as tf
+import streamlit as st
 from tensorflow.keras.datasets import imdb
 from tensorflow.keras.preprocessing import sequence
 from tensorflow.keras.models import load_model
